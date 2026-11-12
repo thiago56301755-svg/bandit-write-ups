@@ -1,0 +1,12 @@
+#bandit level 2-3
+
+##objetivo del nivel
+El archivo tiene espacio en el nombre ('--spaces in this filename--').Hay que saber como manejar nombres de archivos con espacios.
+
+##comando que ejecute
+ls
+cat "./--spaces in this filename--"
+
+##Que aprendi 
+Los espacios en los en los nombres de archivo se manejan con comillas dobles 
+El -- despues de cat indica el fin de las opciones y evita que el nombre del nombre del archivo se interprete como flag
